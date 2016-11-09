@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ffe1"
+        android:layout_above="@+id/radioGroup1" >
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:checked="true"
+            android:drawableTop="@drawable/huanying1"
+            android:text="推荐"
+            android:textColor="@drawable/huanying5"
+            android:tag="0"
+            style="@style/sb"
+            />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:drawableTop="@drawable/huanying2"
+            style="@style/sb"
+            android:tag="1"
+            android:textColor="@drawable/huanying5"
+            android:text="分类" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:drawableTop="@drawable/huanying3"
+            style="@style/sb"
+            android:tag="2"
+            android:textColor="@drawable/huanying5"
+            android:text="搜索" />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:drawableTop="@drawable/huanying4"
+            style="@style/sb"
+            android:tag="3"
+            android:textColor="@drawable/huanying5"
+            android:text="更多" />
+    </RadioGroup>
+
+
+
+</RelativeLayout>

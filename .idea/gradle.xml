@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\AndroidStudio\android_sdutio\gradle\gradle-2.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/day_13_one" />
+            <option value="$PROJECT_DIR$/day_13_one_one" />
+            <option value="$PROJECT_DIR$/day_ok_2" />
+            <option value="$PROJECT_DIR$/day_okhttp" />
+            <option value="$PROJECT_DIR$/day_xutils" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/day_13_one" />
+            <option value="$PROJECT_DIR$/day_13_one_one" />
+            <option value="$PROJECT_DIR$/day_ok_2" />
+            <option value="$PROJECT_DIR$/day_okhttp" />
+            <option value="$PROJECT_DIR$/day_xutils" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
